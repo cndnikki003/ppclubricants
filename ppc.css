@@ -1,0 +1,26 @@
+#container{
+	background-color:black;
+	width:970px;
+	height:800px;
+}
+#header{
+	width:970px;
+	height:125px;
+	overflow: hidden;
+	display:inline-block;
+	position:relative;
+	background-color:#F0F0F0;
+}
+#header h2{
+	display:inline-block;
+	color:#686868;
+	vertical-align: top;
+	padding-top: 10px
+}
+#header ul{
+	list-style-type: none
+}
+
+#header ul li{
+	display:inline;
+}
