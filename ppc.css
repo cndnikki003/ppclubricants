@@ -30,8 +30,8 @@
 
 #header ul li{
 	display:inline;
-	border-right:solid 1px;
-	border-left:solid 1px;
+	border-right:solid 2px;
+	border-left:solid 2px;
 	border-color:#707070;
 }
 #header ul a{
@@ -42,11 +42,14 @@
 	background-color:black;
 	height:269px;
 	width:939px;
-	padding:25px 15px;
+	padding-top: 25px;
+	padding-left:15px;
+	padding-left: 0px
 }	
 #body_1 img{
 	display:inline-block;
 	vertical-align: top;
+	margin-bottom:2px;
 }
 #about{
 	width:500px;
@@ -69,4 +72,74 @@
 	margin-top:0px;
 	margin-left:-15px;
 	color:black;
+}
+.par{
+	padding:0px;
+}
+.par p{
+color:yellow;
+font-size: 60%;
+margin-top:0px;
+}
+.par p img{
+	height:13px;
+	width:41px;
+	border-radius:2px;
+}
+#body_2{
+	background-color:black;
+	height:250px;
+	width:970px;
+	margin-top:20px;
+	font-size:70%;
+}
+.pic1{
+	width:223px;
+	height:250px;
+	background-color: white;
+	display: inline-block;
+	margin-left:0px;
+	margin:8px;
+	vertical-align: top;
+}
+.pic2{
+	width:223px;
+	height:250px;
+	background-color: white;
+	display: inline-block;
+	margin:8px;
+	vertical-align: top;
+}
+.pic3{
+	width:223px;
+	height:250px;
+	background-color: white;
+	display: inline-block;
+	margin:8px;
+	vertical-align: top;
+}
+.pic4{
+	width:223px;
+	height:250px;
+	background-color: white;
+	display: inline-block;
+	margin:8px;
+	vertical-align: top;
+}
+#body_2 strong{
+	background-color:yellow;
+	padding:5px;
+	padding-top:8px;
+	display:block;
+}
+#body_2 p{
+	padding:8px;
+}
+#body_2 input{
+	background-color:yellow;
+}
+
+#body_2 form{
+	display:inline-block;
+	margin-left:100px;
 }
